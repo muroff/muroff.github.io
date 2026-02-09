@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Trajan’s Column</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fbf7f2;
+      color: #2b1d14;
+      line-height: 1.75;
+    }
+
+    header {
+      background-color: #6b1f2a;
+      color: #fffaf2;
+      padding: 30px 20px;
+      text-align: center;
+      border-bottom: 5px solid #e6d2a3;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 16px;
+    }
+
+    .home-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      background-color: #e6d2a3;
+      color: #2b1d14;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      border: 2px solid #6b1f2a;
+      transition: background-color 0.15s, transform 0.15s;
+    }
+
+    .home-button:hover {
+      background-color: #d8c18c;
+      transform: translateY(-2px);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 28px;
+      margin-bottom: 32px;
+      border: 2px solid #e6d2a3;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    }
+
+    .card h2 {
+      color: #6b1f2a;
+      border-left: 7px solid #e6d2a3;
+      padding-left: 14px;
+    }
+
+    .card h3 {
+      color: #4b2b1f;
+    }
+
+    .image {
+      width: 100%;
+      max-width: 700px;
+      height: 420px;
+      object-fit: cover;
+      margin: 24px auto;
+      display: block;
+      border-radius: 12px;
+      border: 2px solid #e6d2a3;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+    }
+    .imagess {
+      width: 100%;
+      max-width: 700px;
+      height: 830px;
+      object-fit: cover;
+      margin: 24px auto;
+      display: block;
+      border-radius: 12px;
+      border: 2px solid #e6d2a3;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 2px solid #e6d2a3;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+    }
+
+    .note {
+      background: #f8f2e6;
+      border-left: 6px solid #c49a5a;
+      padding: 16px;
+      border-radius: 10px;
+      margin-top: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #6a5448;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Trajan’s Column</h1>
+    <p>
+      A monument from ancient Rome that tells a story using images instead of words.
+    </p>
+    <a href="index.html" class="home-button">← Back to Home</a>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Overview</h2>
+      <p>
+        Trajan’s Column is located in Trajan’s Forum in Rome and was finished in AD 113.
+        It was built to honor Emperor Trajan after he won the Dacian Wars.
+      </p>
+
+      <img class="imagess" src="images/trajan.jpg" alt="Trajan's Column in Rome">
+
+      <p>
+        The outside of the column is covered in a long spiral of carvings.
+        These carvings show Roman soldiers, battles, and building projects.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>The Dacian Wars</h2>
+      <p>
+        The Dacian Wars were fought between Rome and the kingdom of Dacia.
+        Dacia was located in what is now Romania and was rich in resources like gold.
+      </p>
+
+      <div class="image-grid">
+        <img src="images/ruinstwo.jpg" alt="Roman ruins">
+        <img src="images/ruinsthree.jpg" alt="Ancient Roman ruins">
+        <img src="images/ruinsfour.jpg" alt="Roman columns">
+      </div>
+
+      <h3>First Dacian War (AD 101–102)</h3>
+      <p>
+        Trajan led Roman soldiers across the Danube River.
+        The Romans defeated King Decebalus, but the war ended with a peace agreement.
+      </p>
+
+      <h3>Second Dacian War (AD 105–106)</h3>
+      <p>
+        Fighting started again a few years later.
+        This time, Rome completely defeated Dacia and made it part of the Roman Empire.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>What the Carvings Show</h2>
+      <p>
+        The carvings show daily life in the Roman army, not just fighting.
+        They help show how organized and powerful Rome was.
+      </p>
+
+      <img class="image" src="images/relief.jpg" alt="Ancient stone carvings">
+
+      <ul>
+        <li>Soldiers marching and setting up camps</li>
+        <li>Building roads, forts, and bridges</li>
+        <li>Trajan speaking to his army</li>
+        <li>Enemies surrendering</li>
+        <li>Large battle scenes</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>The Statue on Top</h2>
+      <p>
+        A statue of Emperor Trajan originally stood on top of the column.
+        Over time, this statue was removed or destroyed.
+      </p>
+
+      <div class="image-grid">
+        <img src="images/stpeter.jpg" alt="Saint Peter statue">
+        <img src="images/statue.jpg" alt="Rome statue">
+      </div>
+
+      <p>
+        In 1587, the statue was replaced with a statue of Saint Peter.
+        This change reflected the Christian influence in Rome at that time.
+      </p>
+
+      <div class="note">
+        <strong>Important:</strong> Trajan’s statue was replaced centuries later.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Why Trajan’s Column Matters</h2>
+      <ul>
+        <li>It shows what Roman soldiers’ lives were like</li>
+        <li>It was used to show Rome’s power</li>
+        <li>It shows strong Roman building skills</li>
+        <li>It helps historians learn about ancient Rome</li>
+      </ul>
+
+      <img class="image" src="images/ruins.jpg">
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Created by Charlie</p>
+    <p>All images from Unsplash</p>
+  </footer>
+
+</body>
+</html>
