@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arch of Titus</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fbf7f2;
+      color: #2b1d14;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    /* Underlined Back to index link */
+    .home-link {
+      text-decoration: underline;
+      font-weight: bold;
+      color: #2b1d14;
+      font-size: 18px;
+    }
+
+    /* ROW STYLES */
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 30px;
+    }
+
+    /* BOX STYLE */
+    .box {
+      background-color: #d9b58f;
+      color: white;
+      border-radius: 12px;
+      padding: 20px;
+      width: 320px;
+      box-sizing: border-box;
+      font-size: 17px;
+    }
+
+    .box h2,
+    .box h3 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .box p {
+      line-height: 1.5;
+    }
+
+    .box ul {
+      padding-left: 20px;
+    }
+
+    /* IMAGES */
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-top: 40px;
+      flex-wrap: nowrap;
+    }
+
+    .image-container img {
+      width: 650px;
+      height: auto;
+      border-radius: 12px;
+      border: 4px solid #d9b58f;
+    }
+
+    .author {
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html" class="home-link">Back to Home</a>
+  </nav>
+
+  <header>
+    <h1>Arch of Titus</h1>
+  </header>
+
+  <main>
+
+    <!-- FIRST ROW (2 BOXES) -->
+    <section class="row">
+      <div class="box">
+        <h2>Historical Background</h2>
+        <p>The Arch of Titus was built in Rome around 81 CE near the Roman Forum.</p>
+        <ul>
+          <li>Ancient Rome</li>
+          <li>Built in 81 CE</li>
+          <li>Near Roman Forum</li>
+          <li>Triumphal arch</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h2>Reason for Construction</h2>
+        <p>Built to celebrate Emperor Titus’s victory in Jerusalem in 70 CE.</p>
+        <ul>
+          <li>Honors Titus</li>
+          <li>Victory in Jerusalem</li>
+          <li>End of revolt</li>
+          <li>Roman propaganda</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SECOND ROW (3 BOXES) -->
+    <section class="row">
+      <div class="box">
+        <h2>Arch Builders</h2>
+        <p>Commissioned by Emperor Domitian after Titus’s death.</p>
+        <ul>
+          <li>Ordered by Domitian</li>
+          <li>Roman architects</li>
+          <li>Made of marble</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h2>Design of Arch</h2>
+        <p>A single arch with Corinthian columns and detailed relief carvings.</p>
+        <ul>
+          <li>Single arch</li>
+          <li>Corinthian columns</li>
+          <li>Relief sculptures</li>
+          <li>Symmetrical design</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>Relief on Arch</h3>
+        <p>Shows Roman soldiers carrying treasures and Titus in a triumphal scene.</p>
+      </div>
+    </section>
+
+    <!-- IMAGES -->
+    <section class="image-container">
+      <img src="images/arch1.jpeg" alt="Relief on the Arch of Titus">
+      <img src="images/arch2.webp" alt="Arch of Titus outside view">
+    </section>
+
+  </main>
+
+  <footer class="author">
+    By: Henry Liss and Dany Duek
+  </footer>
+
+</body>
+</html>
